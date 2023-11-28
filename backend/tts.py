@@ -13,7 +13,7 @@ from util import delete_file
 LANGUAGE = os.getenv("LANGUAGE", "en")
 TTS_PROVIDER = os.getenv("TTS_PROVIDER", "EDGETTS")
 
-ELEVENLABS_API_KEY = os.getenv("ELEVENLABS_API_KEY", None)
+ELEVENLABS_API_KEY = os.getenv("ELEVENLABS_API_KEY", "bec2c5356d2c8c41e246ddb998b821d5")
 ELEVENLABS_VOICE = os.getenv("ELEVENLABS_VOICE", "EXAVITQu4vr4xnSDxMaL")
 EDGETTS_VOICE = os.getenv("EDGETTS_VOICE", "en-US-EricNeural")
 
